@@ -3,7 +3,7 @@ import math
 import util
 
 # 光のtype
-type Ray* = object
+type Ray* = ref object
   origin*: Vec3
   direction*: Vec3
 
